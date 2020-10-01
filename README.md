@@ -11,7 +11,6 @@ You can click on each course to get the Repo for it.
 
 ## - [Code 401](https://sayefdeen.github.io/reading-notes401) - Advanced Software Development
 
-| Days  |   Date    |   Name   |                               Links                               |
-| :---: | :-------: | :------: | :---------------------------------------------------------------: |
-| Day1  | 19/8/2020 | class-01 | [class-01](https://sayefdeen.github.io/reading-notes301/class-01) |
-
+| Days |    Date    |   Name   |                               Links                               |
+| :--: | :--------: | :------: | :---------------------------------------------------------------: |
+| Day1 | 02/10/2020 | class-01 | [class-01](https://sayefdeen.github.io/reading-notes401/class-01) |
