@@ -47,3 +47,21 @@ If you struggle here, there are usually two possible reasons:
 Sometimes this step isn’t necessary, but it’s worth taking a look at your code and figuring out if you can cut out a few lines or do something simpler.
 
 This is also a good place to make sure all your variables are named with long meaningful names, having good names for your variables and methods is for helping the person evaluating your code to understand what you were trying to do.
+
+---
+
+## 2. Pretend Your Time is Worth \$1,000/Hour.
+
+- You have a few hours in this life, so make sure to invest well on them so you can achieve your goals, cause this will affect your future self.
+
+- There is difference between focusing and just being busy all the time. When you’re busy, you are on autopilot. You can’t see the hours slipping away, time you’ll never get back.
+
+- Don't let anyone to be on charge of your time and how you manage it, if you don't manage your time, it will manage you.
+
+- People will get used to the the fact that your time is viliable to you, they will recognize it,recpect it,and will treat you differently.
+
+- If you don’t treat yourself and your time with respect, you will become unhappy, resentful, and tired.
+
+- Every time you say yes to something, it means you’re saying “no” to a dozen other opportunities. The world’s most successful and extraordinary people say no to almost everything, but yes to a few things.
+
+## 3. How to think like a programmer.
