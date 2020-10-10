@@ -65,3 +65,17 @@ This is also a good place to make sure all your variables are named with long me
 - Every time you say yes to something, it means you’re saying “no” to a dozen other opportunities. The world’s most successful and extraordinary people say no to almost everything, but yes to a few things.
 
 ## 3. How to think like a programmer.
+
+Problem sovling in the meta-skill, we all have problems. Big and small. How we deal with them is sometimes, well…pretty random.
+
+### What should you do when you encounter a new problem?
+
+1. Understand : Know exactly what is being asked. Most hard problems are hard because you don’t understand them.
+
+2. Plan : Don’t dive right into solving without a plan, In programming, this means don’t start hacking straight away. Give your brain time to analyze the problem and process the information.
+
+3. Divide : Break the problem into sub-problems because they are much easier to solve, then solve them one by one.
+
+4. Stuck? : This happens to everyone!, The difference is the best programmers/problem-solvers are more curious about bugs/errors than irritated.
+
+5. Practice : Don’t expect to be great after just one week. If you want to be a good problem-solver, solve a lot of problems!
