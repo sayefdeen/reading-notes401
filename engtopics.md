@@ -79,3 +79,25 @@ Problem sovling in the meta-skill, we all have problems. Big and small. How we d
 4. Stuck? : This happens to everyone!, The difference is the best programmers/problem-solvers are more curious about bugs/errors than irritated.
 
 5. Practice : Don’t expect to be great after just one week. If you want to be a good problem-solver, solve a lot of problems!
+
+## 4. 5 Whys.
+
+Have you ever had a problem that refused to go away? No matter what you did, sooner or later it would return, perhaps in another form.
+
+### How to use the 5 Whys?
+
+The model follows a very simple seven-step process:
+
+1. Assemble a Team : Gather together people who are familiar with the specifics of the problem, and with the process that you're trying to fix.
+
+2. Define the Problem : If you can, observe the problem in action. Discuss it with your team and write a brief, clear problem statement that you all agree on
+
+3. Ask the First "Why?" : Ask your team why the problem is occurring, Asking "Why?" sounds simple, but answering it requires serious thought. Search for answers that are grounded in fact: they must be accounts of things that have actually happened, not guesses at what might have happened.
+
+4. Ask "Why?" Four More Times : For each of the answers that you generated in Step 3, ask four further "whys" in succession. Each time, frame the question in response to the answer you've just recorded.
+
+5. Know When to Stop : You'll know that you've revealed the root cause of the problem when asking "why" produces no more useful responses, and you can go no further.
+
+6. Address the Root Cause(s) : Now that you've identified at least one root cause, you need to discuss and agree on the counter-measures that will prevent the problem from recurring.
+
+7. Monitor Your Measures : Keep a close watch on how effectively your counter-measures eliminate or minimize the initial problem. You may need to amend them, or replace them entirely.
