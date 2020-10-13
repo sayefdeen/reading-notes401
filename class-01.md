@@ -4,7 +4,7 @@
 
 ### 1. [Array.map()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
 
-Its a prototype function (method) that can be used by arrays, it will return a new array without effecting the original one.
+it is a method that can be used by arrays, it will return a new array without effecting the original one.
 
 ```javascript
 Array.map();
@@ -21,7 +21,7 @@ console.log(map1);
 
 ### 2. [Array.reduce()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce)
 
-Its a prototype function (method) that can be used by arrays, it will run in each element of the array and returning a single value of that array.
+it is a method that can be used by arrays, it will run in each element of the array and returning a single value of that array.
 
 ```javascript
 Array.reduce();
