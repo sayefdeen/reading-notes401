@@ -15,4 +15,5 @@ You can click on each course to get the Repo for it.
 | :--: | :--------: | :-------: | :-----------------------------------------------------------------: |
 | Day1 | 02/10/2020 | class-01  |  [class-01](https://sayefdeen.github.io/reading-notes401/class-01)  |
 | Day2 | 10/10/2020 | EngTopics | [EngTopics](https://sayefdeen.github.io/reading-notes401/engtopics) |
-| Day3 | 11/10/2020 | class-01  |  [class-02](https://sayefdeen.github.io/reading-notes401/class-02)  |
+| Day3 | 11/10/2020 | class-02  |  [class-02](https://sayefdeen.github.io/reading-notes401/class-02)  |
+| Day4 | 12/10/2020 | class-03  |  [class-03](https://sayefdeen.github.io/reading-notes401/class-03)  |
