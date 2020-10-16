@@ -19,3 +19,4 @@ You can click on each course to get the Repo for it.
 | Day4 | 12/10/2020 | class-03  |  [class-03](https://sayefdeen.github.io/reading-notes401/class-03)  |
 | Day5 | 13/10/2020 | class-04  |  [class-04](https://sayefdeen.github.io/reading-notes401/class-04)  |
 | Day6 | 14/10/2020 | class-05  |  [class-05](https://sayefdeen.github.io/reading-notes401/class-05)  |
+| Day6 | 16/10/2020 | class-06  |  [class-06](https://sayefdeen.github.io/reading-notes401/class-06)  |
