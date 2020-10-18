@@ -185,3 +185,5 @@ router.get('/user/:id', function (req, res, next) {
 // mount the router on the app
 app.use('/', router);
 ```
+
+### Error-handling middleware
