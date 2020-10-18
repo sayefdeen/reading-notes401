@@ -187,3 +187,45 @@ app.use('/', router);
 ```
 
 ### Error-handling middleware
+
+Define error-handling middleware functions in the same way as other middleware functions, except with four arguments instead of three, specifically with the signature `(err, req, res, next)`:
+
+```javascript
+app.use(function (err, req, res, next) {
+  console.error(err.stack);
+  res.status(500).send('Something broke!');
+});
+```
+
+### Third-party middleware
+
+Use third-party middleware to add functionality to Express apps.
+
+Install the Node.js module for the required functionality, then load it in your app at the application level or at the router level.
+
+The following example illustrates installing and loading the cookie-parsing middleware function cookie-parser.
+
+```cmd
+npm install cookie-parser
+```
+
+```javascript
+var express = require('express');
+var app = express();
+var cookieParser = require('cookie-parser');
+
+// load the cookie-parsing middleware
+app.use(cookieParser());
+```
+
+### Response Methods
+
+- **`res.download()`** : Prompt a file to be downloaded.
+- **`res.end()`** : End the response process.
+- **`res.json()`** : Send a JSON response.
+- **`res.jsonp()`** : Send a JSON response with JSONP support.
+- **`res.redirect()`** : Redirect a request.
+- **`res.render()`** : Render a view template.
+- **`res.send()`** : Send a response of various types.
+- **`res.sendFile()`** : Send a file as an octet stream.
+- **`res.sendStatus()`** : Set the response status code and send its string representation as the response body.
