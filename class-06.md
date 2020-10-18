@@ -14,6 +14,10 @@ ORM (Object-Relation Mapping) : it helps take advantage of the object-oriented p
 
 3. How does the repository pattern compare with an ORM?
 
+- ORM handles objects while Repository pattern doesn’t.
+
+- The ORM is an implementation detail of the Repository. The ORM just makes it easy to access the DB tables in an OOP friendly way.
+
 4. When making a repository/facade, what flexibility do you gain?
 
 - provide a simple interface to a complex subsystem. The application of design patterns often results in a lot of small classes which makes subsystems more flexible and customizable
