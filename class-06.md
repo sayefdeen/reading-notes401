@@ -16,7 +16,13 @@ ORM (Object-Relation Mapping) : it helps take advantage of the object-oriented p
 
 4. When making a repository/facade, what flexibility do you gain?
 
+- provide a simple interface to a complex subsystem. The application of design patterns often results in a lot of small classes which makes subsystems more flexible and customizable
+
 5. Name 3 cloud based NoSQL Databases
+
+- Amazon
+- DynamoDB
+- MongoDB
 
 ---
 
