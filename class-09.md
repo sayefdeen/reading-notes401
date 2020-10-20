@@ -61,3 +61,44 @@ router.param('user', function (req, res, next, id) {
 Param callback functions are local to the router on which they are defined, they are not inherited by mounted apps or routers, hence, param callbacks define on `router` will be triggered only by route parameters define on `router` routes.
 
 A param callback will be called only once in a request-response cycle, even if the parameter is matched in multiple routes, as shown in the following examples.
+
+### mongoose middleware
+
+Middleware also called pre/post _hooks_ are functions which are passed control during execution of asynchronous functions, Middleware is specified on the schema level and is useful for writing plugins.
+
+- Types of middleware
+
+  - document middleware
+  - model middleware
+  - aggregate middleware
+  - query middleware
+
+Pre middle functions are executed one after another, when each middleware calls `next`.
+
+```javascript
+const schema = new Schema();
+schema.pre('save',function(next)){
+  // do anything
+  next();
+}
+
+schema.pre('save',async function()){
+  await func1();
+  await func2();
+}
+```
+
+it you use `next()` it dose not stop the rest of the code in your middleware function from executing using the early return pattern to prevent the rest of your middleware function from running when you call `next()`
+
+```javascript
+const schema = new Schema(..);
+schema.pre('save', function(next) {
+  if (foo()) {
+    console.log('calling next!');
+    // `return next();` will make sure the rest of this function doesn't run
+    /*return*/ next();
+  }
+  // Unless you comment out the `return` above, 'after next' will print
+  console.log('after next');
+});
+```
