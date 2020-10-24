@@ -75,3 +75,25 @@ Problems with cryptographic hash algorithm :
 To overcome such issues, we need algorithms which can make the brute force attacks slower and minimize the impact, Such algorithms are [PBKDF2](https://nodejs.org/api/crypto.html#crypto_crypto_pbkdf2_password_salt_iterations_keylen_digest_callback) and [BCrypt](https://www.npmjs.com/package/bcrypt).
 
 ---
+
+## Introduction to JSON Web Tokens (JWT)
+
+### What is JSON Web Tokens
+
+JSON Web Token (JWT) is a compact, URL-safe means of representing claims to be transferred between two parties,The claims in a JWT are encoded as a JSON object that is used as the payload of a JSON Web Signature (JWS) structure or as the plaintext of a JSON Web Encryption (JWE) structure.
+
+### When we use JSON Web Tokens
+
+- Authorization : Once the user is logged in, each subsequent request will include the JWT, allowing the user to access routes, services,and resources that are permitted with that token
+
+- Information Exchange : JSON Web Tokens are a good way of securely transmitting information between parties. Because JWTs can be signed—for example, using public/private key pairs—you can be sure the senders are who they say they are. Additionally, as the signature is calculated using the header and the payload, you can also verify that the content hasn't been tampered with.
+
+### What is the JSON Web Token structure?
+
+In its compact form, JSON Web Tokens consist of three parts separated by dots (.), which are:
+
+- Header : The header typically consists of two parts: the type of the token, which is JWT, and the signing algorithm being used, such as HMAC SHA256 or RSA.
+
+- Payload : The second part of the token is the payload, which contains the claims. Claims are statements about an entity (typically, the user) and additional data. There are three types of claims: registered, public, and private claims.
+
+- Signature : To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.
