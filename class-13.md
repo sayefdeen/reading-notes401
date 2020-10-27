@@ -46,3 +46,52 @@ More Secure, and for the user it will be more comfortable to use his accounts in
 - **Authorization Code** : used for any transaction or entry that has restrictions on which users are entitled to access.
 
 - **Access Token** : is an object encapsulating the security identity of a process or thread. A token is used to make security decisions and to store tamper-proof information about some system entity.
+
+---
+
+## Preparation Materials
+
+JSON Web Token (JWT) is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. This information can be verified and trusted because it is digitally signed.
+
+### What is the JSON Web Token structure?
+
+- Header : The header typically consists of two parts: the type of the token, which is JWT, and the signing algorithm being used, such as HMAC SHA256 or RSA.
+
+```json
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+```
+
+Then, this JSON is Base64Url encoded to form the first part of the JWT.
+
+- Payload : The second part of the token is the payload, which contains the claims. Claims are statements about an entity (typically, the user) and additional data.
+
+  - Registered claims: These are a set of predefined claims which are not mandatory but recommended, to provide a set of useful, interoperable claims.
+
+  - Public claims: These can be defined at will by those using JWTs. But to avoid collisions they should be defined in the IANA JSON Web Token Registry or be defined as a URI that contains a collision resistant namespace.
+
+  - Private claims: These are the custom claims created to share information between parties that agree on using them and are neither registered or public claims.
+
+```json
+{
+  "sub": "1234567890",
+  "name": "John Doe",
+  "admin": true
+}
+```
+
+- Signature: To create the signature part you have to take the encoded header, the encoded payload, a secret, the algorithm specified in the header, and sign that.
+
+```javascript
+HMACSHA256(base64UrlEncode(header) + '.' + base64UrlEncode(payload), secret);
+```
+
+The Final result would look like something like this.
+
+![Final Result](https://cdn.auth0.com/content/jwt/encoded-jwt3.png)
+
+JWTs can be either signed, encrypted or both. If a token is signed, but not encrypted, everyone can read its contents, but when you don't know the private key, you can't change it. Otherwise, the receiver will notice that the signature won't match anymore.
+
+JWT doesn't concern itself with encryption. It cares about validation. That is to say, it can always get the answer for "Have the contents of this token manipulated"? This means user manipulation of the JWT token is futile because the server will know and disregard the token. The server adds a signature based on the payload when issuing a token to the client. Later on it verifies the payload and matching signature.
