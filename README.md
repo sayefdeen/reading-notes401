@@ -34,3 +34,4 @@ You can click on each course to get the Repo for it.
 | Day17 | 02/10/2020 | class-18  |  [class-18](https://sayefdeen.github.io/reading-notes401/class-18)  |
 | Day18 | 03/10/2020 | class-19  |  [class-19](https://sayefdeen.github.io/reading-notes401/class-19)  |
 | Day19 | 14/11/2020 | class-26  |  [class-26](https://sayefdeen.github.io/reading-notes401/class-26)  |
+| Day20 | 15/11/2020 | class-27  |  [class-27](https://sayefdeen.github.io/reading-notes401/class-27)  |
