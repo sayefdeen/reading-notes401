@@ -1,4 +1,4 @@
-# <Login /> and <Auth />
+# `<Login />` and `<Auth />`
 
 ## Review, Research, and Discussion
 
